@@ -1,26 +1,23 @@
 *
 {
     font-family: 'Josefin Sans', sans-serif;
-    /* padding: 0 !important;
-    margin: 0 !important; */
 }
-.container-fluid
+body
 {
-    padding: 0 !important;
+    overflow-x: hidden;
 }
+
 /* navigation */
 nav
 {
     /* height: 6vh; */
     background-color: rgb(76, 226, 219);
-    color: white;
-    
+    color: white;   
 }
 ul
 {
     display: flex;
     list-style: none;
-    border: 1px solid;
     justify-content: space-between;
     margin: auto !important;
 }
@@ -58,7 +55,6 @@ h4
 /* main */
 .main1
 {
-    /* height: 65vh; */
     background-color: rgb(76, 226, 219);
     color: white;
 }
@@ -74,4 +70,34 @@ h4
     width: 80%;
     margin: 0;
     /* margin-top: 5%; */
+}
+.card
+{
+    padding: 0;
+    border-radius: 20px;
+}
+.card-img-top
+{
+    border-radius: 20px 20px 0 0;
+}
+.card a
+{
+    color: rgb(76, 226, 219);
+    border: rgb(76, 226, 219) solid 2px;
+}
+/********************************************/
+/* FOOTER */
+footer
+{
+    background-color: rgb(76, 226, 219);
+    color: white;
+}
+footer span
+{
+    display: block;
+}
+footer button
+{
+    border-radius: 10px;
+    border: solid 1px white;
 }
