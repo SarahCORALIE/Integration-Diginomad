@@ -24,8 +24,8 @@ ul
 li
 {
     display: block;
-    padding: auto 5%;
-    font-size: 1.5vw;
+    padding: auto 5% !important;
+    /* font-size: 1.3rem; */
 }
 /* bandeau */
 .bandeau
@@ -44,12 +44,12 @@ li
 h1
 {
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 3rem;
 }
 h4
 {
     font-weight: bold; 
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 /* main */
